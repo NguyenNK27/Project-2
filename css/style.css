@@ -1,0 +1,49 @@
+/* Skip Link */
+.skip-link {
+  position: absolute;
+  top: -40px;
+  left: 0;
+  background: black;
+  color: white;
+  padding: 8px;
+}
+.skip-link:focus {
+  top: 0;
+}
+
+/* Navbar - Flex */
+.navbar {
+  display: flex;
+  background: #333;
+  padding: 10px;
+}
+.navbar a {
+  color: white;
+  margin-right: 10px;
+  text-decoration: none;
+}
+.navbar a:hover {
+  background: #555;
+  padding: 5px;
+}
+
+/* Box Model for Images */
+img {
+  border: 2px solid gray;
+  padding: 5px;
+  border-radius: 8px;
+  width: 100px;
+}
+
+/* Grid for gallery */
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+  margin-top: 10px;
+}
+
+/* nth-child style */
+.gallery img:nth-child(odd) {
+  border-radius: 50%;
+}
